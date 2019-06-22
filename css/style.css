@@ -6,22 +6,22 @@ body {
 .about {
 }
 
-.about__header {
-    color: #BE7C4D;
+.about__content {
 }
 
-.about__content {
+.about__header {
+    color: #BE7C4D;
 }
 
 .article {
 }
 
-.article__header {
-    color: #8B2635;
-}
-
 .article__content {
     padding: 3px 16px;
+}
+
+.article__header {
+    color: #8B2635;
 }
 
 .blog {
@@ -72,10 +72,10 @@ body {
 .post {
 }
 
-.post__header {
-    color: #2E3532;
-}
-
 .post__content {
     padding: 3px 16px;
+}
+
+.post__header {
+    color: #2E3532;
 }
