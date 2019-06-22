@@ -13,6 +13,17 @@ body {
 .about__content {
 }
 
+.article {
+}
+
+.article__header {
+    color: #8B2635;
+}
+
+.article__content {
+    padding: 3px 16px;
+}
+
 .blog {
 }
 
