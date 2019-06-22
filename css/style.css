@@ -1,28 +1,20 @@
 body {
     background: #fefefe;
+    color: #333333;
 }
 
 .sectionHeader {
-    color: #1460aa;
+    color: #BE7C4D;
 }
 
-.blogHeader {
-    color: #6c1285;
-    font-size: 64px;
+.blogPostHeader {
+    color: #2E3532;
 }
 
-.paragraph {
-    color: darkblue;
+.heading, .blogHeader {
+    color: #8B2635;
 }
 
-.blog {
-    background: hotpink;
-}
-
-.header {
-    color: yellow;
-}
-
-.heading {
-    color: red;
+.link {
+    color: #93C0A4;
 }
