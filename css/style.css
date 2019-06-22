@@ -16,5 +16,32 @@ body {
 }
 
 .link {
-    color: #93C0A4;
+    text-decoration: none;
+}
+
+.paragraph {
+    padding: 3px 16px;
+}
+
+.main {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    color: #8B2635;
+    background-color: #fff;
 }
