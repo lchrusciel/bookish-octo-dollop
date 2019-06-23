@@ -3,6 +3,14 @@ body {
     color: #333333;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 .about {
 }
 
@@ -47,11 +55,15 @@ body {
     margin: 0px auto;
 }
 
-.main__header {
+.header {
+    padding-top: 50px;
+}
+
+.header__title {
     color: #8B2635;
 }
 
-.main__link {
+.header__link {
     text-decoration: none;
 }
 
