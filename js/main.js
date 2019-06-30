@@ -1,23 +1,12 @@
-console.log('Elo 🚀');
+const hello = (name, age) => {
+    console.log(`Hello ${name}, you are ${age} years old`)
+};
 
-const dynamicElement = document.querySelector('.about__content--js');
+const user1 = 'Elon';
+const user2 = 'Jeff';
 
-if (dynamicElement !== null) {
-    dynamicElement.innerHTML = 'Dynamicly injected with JS';
-}
+const age = 40;
 
-console.log(calculate(1));
-
-function calculate(x) {
-    x = x + 3;
-    console.log(`Normal: ${x}`);
-
-    return x * 7;
-}
-
-console.log(calculate(2));
-
-const calculateFat = x => (x+3)*7;
-
-console.log(calculateFat(1));
-console.log(calculateFat(2));
+hello('John', 23);
+hello(user1, age);
+hello(user2, 23);
