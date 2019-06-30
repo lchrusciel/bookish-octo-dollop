@@ -14,6 +14,10 @@ html {
     box-sizing: inherit;
 }
 
+.main {
+    padding: 16px;
+}
+
 .person {
     background: #F8F8F8;
     max-width: 624px;
