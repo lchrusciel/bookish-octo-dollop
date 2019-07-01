@@ -1,0 +1,68 @@
+body {
+    background: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.main {
+    padding: 16px;
+}
+
+.person {
+    background: #F8F8F8;
+    max-width: 624px;
+    width: 100%;
+    display: flex;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.person__avatar {
+    margin-right: 32px;
+}
+
+.person__description {
+    font-family: Roboto;
+    line-height: 22px;
+}
+
+.person__description--last {
+    margin-bottom: 0;
+}
+
+.person__link {
+    color: #E20613;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.person__name {
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.person__skill {
+    color: #ED6D05;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.person__title {
+    font-family: Arial;
+    color: #545454;
+    font-size: 18px;
+font-style: italic;
+}
